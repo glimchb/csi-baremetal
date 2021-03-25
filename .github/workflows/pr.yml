@@ -2,7 +2,7 @@ name: PR validation
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master,feature-update-api-ver ]
   pull_request:
     branches: [ master ]
 env:
